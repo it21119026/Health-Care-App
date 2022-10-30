@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Health Insurance</string>
+    <string name="your_health_is_our_priority"><u>Your Health is our Priority</u></string>
+    <string name="we_are_health_care_an_end_to_end_digital_healthcare_platform"><u>We are Health Care . An End to End Digital HealthCare Platform</u></string>
+    <string name="faq"><u>FAQ</u></string>
+    <string name="free_7_days_trial_then_lkr_7300_00_year_cancel_anytime_during_the_trial">Free 7 Days Trial , then LKR \n 7300.00/Year \n Cancel anytime during the trial</string>
+    <string name="buy_now">Buy Now</string>
+</resources>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/drawable/button_enrolment.xml" value="0.2205" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/drawable/custombutonto_pay.xml" value="0.188" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/drawable/paywithstripe.xml" value="0.1275" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/layout/activity_aboutus.xml" value="0.1796875" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/layout/activity_free7_days.xml" value="0.1796875" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/layout/activity_month1_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/layout/activity_payment.xml" value="0.1796875" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/layout/activity_payment1825.xml" value="0.1796875" />
+        <entry key="..\:/Mad_Project/MADProject/app/src/main/res/layout/activity_support.xml" value="0.1796875" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/drawable/box_circle.xml" value="0.16" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/drawable/button_enrolment.xml" value="0.172" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/drawable/button_enrolment_non_selected.xml" value="0.14" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/drawable/circleimage.xml" value="0.1625" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/drawable/custombutonto_pay.xml" value="0.172" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/drawable/custombutton.xml" value="0.1" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/drawable/round_textview_corners.xml" value="0.1665" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/drawable/support_text_box.xml" value="0.1755" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/layout/activity_aboutus.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/layout/activity_free7_days.xml" value="0.23529411764705882" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/layout/activity_insuarance_main_func.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/layout/activity_month1_page.xml" value="0.33" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/layout/activity_payment1825.xml" value="0.3435185185185185" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/layout/activity_privacy_policy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Kolitha/AndroidStudioProjects/MADProject/app/src/main/res/layout/activity_support.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
