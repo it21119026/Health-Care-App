@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#120639"
+    tools:context=".UpdateProfile">
+
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="548dp"
+        android:background="#FF3F51B5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/ic_profile"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_profile"
+        android:contentDescription="name"
+        app:layout_constraintRight_toLeftOf="@+id/textview_fullNameTitle"
+        app:layout_constraintTop_toTopOf="@+id/textview_fullNameTitle"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <TextView
+        android:id="@+id/textview_fullNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" FULL NAME :"
+        android:textColor="@color/white"
+        android:textColorHint="#DAD4D4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting"
+        app:layout_constraintTop_toBottomOf="@+id/greeting" />
+
+    <EditText
+        android:id="@+id/edittext_fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_fullNameTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textview_fullNameTitle" />
+
+    <ImageView
+        android:id="@+id/ic_email"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_email"
+        android:contentDescription="ic_email"
+        app:layout_constraintRight_toLeftOf="@+id/textview_emailAddressTitle"
+        app:layout_constraintTop_toTopOf="@+id/textview_emailAddressTitle"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <TextView
+        android:id="@+id/textview_emailAddressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" EMAIL ADDRESS :"
+        android:textColor="@color/white"
+        android:textColorHint="#C8BDBD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_fullName" />
+
+    <EditText
+        android:id="@+id/edittext_emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_fullNameTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textview_emailAddressTitle" />
+
+    <ImageView
+        android:id="@+id/ic_dob"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_calendar"
+        android:contentDescription="dob"
+        app:layout_constraintRight_toLeftOf="@+id/textview_dateOfBirthTitle"
+        app:layout_constraintTop_toTopOf="@+id/textview_dateOfBirthTitle"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <TextView
+        android:id="@+id/textview_dateOfBirthTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" DATE OF BIRTH :"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_emailAddressTitle"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_emailAddress" />
+
+    <EditText
+        android:id="@+id/edittext_dateOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_emailAddressTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textview_dateOfBirthTitle" />
+
+    <ImageView
+        android:id="@+id/ic_birthday"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_birthday"
+        android:contentDescription="age"
+        app:layout_constraintRight_toLeftOf="@+id/textview_ageTitle"
+        app:layout_constraintTop_toTopOf="@+id/textview_ageTitle"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <TextView
+        android:id="@+id/textview_ageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" AGE :"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_dateOfBirthTitle"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_dateOfBirth" />
+
+
+    <EditText
+        android:id="@+id/edittext_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_dateOfBirthTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textview_ageTitle" />
+
+    <ImageView
+        android:id="@+id/ic_mobile"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_mobile"
+        android:contentDescription="mobile"
+        app:layout_constraintRight_toLeftOf="@+id/textview_mobileNumberTitle"
+        app:layout_constraintTop_toTopOf="@+id/textview_mobileNumberTitle"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <TextView
+        android:id="@+id/textview_mobileNumberTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" MOBILE NUMBER :"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_ageTitle"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_age" />
+
+    <EditText
+        android:id="@+id/edittext_mobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_ageTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textview_mobileNumberTitle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custombutonto_pay"
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Update Profile"
+        android:textColor="#ffff"
+        android:textColorHighlight="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="#EFE7E7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
