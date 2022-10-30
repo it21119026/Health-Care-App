@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MAD project -Hospital</string>
+    <string name="todo">TODO</string>
+    <string name="patient_registration">Patient Registration</string>
+    <string name="doctor_details">Doctor Details</string>
+    <string name="toDo">TODO</string>
+    <string name="dr_fernando">Dr.Fernando</string>
+    <string name="general_s">General s</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="general_surgeon">General Surgeon</string>
+    <string name="dr_b_a_d_perera">Dr.B.A.D.Perera</string>
+    <string name="neuro_surgeon">Neuro Surgeon</string>
+    <string name="dr_roshell_wijenayaka">Dr.Roshell Wijenayaka</string>
+    <string name="cardiotherapic_surgeon">Cardiotherapic Surgeon</string>
+    <string name="anne_mendis">Anne Mendis</string>
+    <string name="dr_anne_mendis" />
+    <string name="Dr_anne_mendis">Dr.Anne Mendis</string>
+    <string name="dermatalogist">Dermatalogist</string>
+    <string name="dr_c_p_gunasekara">Dr.C.P.Gunasekara</string>
+    <string name="gastronology_surgeon">Gastronology Surgeon</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="already_have_an_account_sign_in">Already Have An Account? Sign in</string>
+    <string name="channel_your_doctor">Channel Your Doctor</string>
+    <string name="fees">Fees</string>
+    <string name="card_expiry">Card Expiry</string>
+    <string name="card_type">Card Type</string>
+    <string name="card_no">Card No</string>
+    <string name="card_payment">Card Payment</string>
+    <string name="name_of_the_card">Name of the Card</string>
+    <string name="Todo">TODO</string>
+    <string name="confirm">Confirm</string>
+    <string name="ToDo">TODO</string>
+    <string name="specialization">Specialization</string>
+    <string name="your_health_is_our_priority" />
+</resources>
